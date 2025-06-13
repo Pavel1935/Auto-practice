@@ -1,0 +1,34 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Настройки PyCharm / JetBrains
+.idea/
+
+# Python bytecode и кэш
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Логи
+*.log
+
+# Файлы среды и конфигурации
+*.env
+.env.*
+*.sqlite3
+
+# Системные файлы macOS
+.DS_Store
+
+# Jupyter Notebook checkpoints (если используешь)
+.ipynb_checkpoints/
+
+# Тестовые отчёты
+*.xml
+htmlcov/
+coverage/
+
+# pyproject.toml зависимости (если lock-файл)
+poetry.lock
+Pipfile.lock
